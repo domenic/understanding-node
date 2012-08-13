@@ -1,0 +1,19 @@
+{
+  "name": "understanding-node",
+  "version": "0.0.0",
+  "description": "Material for the \"Understanding the Node.js Platform\" class at General Assembly",
+  "dependencies": {
+    "canvas": "~0.13.0",
+    "ecstatic": "~0.1.6",
+    "github-firehose": "~0.0.1",
+    "jsdom": "~0.2.15",
+    "request": "~2.10.0",
+    "socket.io": "~0.9.10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/domenic/understanding-node"
+  },
+  "author": "Domenic Denicola <domenic@domenicdenicola.com> (http://domenicdenicola.com)",
+  "license": "WTFPL"
+}

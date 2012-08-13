@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Server-Sent Events Client</title>
+    </head>
+    <body>
+        <h1>Incoming!!1</h1>
+
+        <ul id="events">
+        </ul>
+
+        <script>
+            var source = new EventSource("/events");
+            var eventsEl = document.getElementById("events");
+
+            source.addEventListener("message", function (e) {
+                var eventEl = document.createElement("li");
+                eventEl.textContent = e.data;
+
+                eventsEl.appendChild(eventEl);
+            });
+        </script>
+    </body>
+</html>

@@ -1,0 +1,10 @@
+#game {
+    background: #DDD;
+    height: 500px;
+    position: relative;
+    width: 500px;
+}
+
+#game img {
+    position: absolute;
+}
