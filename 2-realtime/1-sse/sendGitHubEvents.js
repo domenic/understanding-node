@@ -13,7 +13,7 @@ module.exports = function (req, res) {
     });
 
     firehose.on("event", function (event) {
-        if (event.type === "PushEvent") {
+        if (event.type === "PushEvent" && event.payload.commits.length > 0) {
             var login = "@" + event.actor.login;
             var commit = event.payload.head.substring(0, 5);
             var repo = event.repo.name;

@@ -14,7 +14,7 @@ var server = http.createServer(function (req, res) {
         request(urlToPipe).pipe(res);
         console.log("Piped the web request for you.");
     } else {
-        res.writeHead(200, { "Content-Type": "text/plain" });
+        res.writeHead(409, { "Content-Type": "text/plain" });
         res.end("Don't forget to give me a pipe-me URL!");
     }
 });

@@ -21,7 +21,7 @@ module.exports = function (io) {
             socket.broadcast.emit("playerLeft", { id: playerId });
         });
 
-        // When this client sends a "moved" message, rebroadcast it to all clients.
+        // When this client sends a "moved" message, rebroadcast it to all other clients.
         socket.on("moved", function (ev) {
             socket.broadcast.emit("playerMoved", {
                 id: playerId,

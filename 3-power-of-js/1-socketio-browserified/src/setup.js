@@ -34,4 +34,4 @@ module.exports = function (id, socket) {
             socket.emit("moved", { x: newX, y: newY });
         }
     }
-}
+};

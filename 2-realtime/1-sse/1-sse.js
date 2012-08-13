@@ -16,7 +16,7 @@ var server = http.createServer(function (req, res) {
     if (url.parse(req.url).pathname === "/events") {
         sendTimeEvents(req, res);
     } else {
-        staticFileHandler(req, res)
+        staticFileHandler(req, res);
     }
 });
 
