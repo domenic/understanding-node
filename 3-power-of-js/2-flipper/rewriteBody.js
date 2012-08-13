@@ -62,7 +62,7 @@ function rotateImage(imgBuffer, imgEl) {
         return;
     }
 
-    // Create a canvas with a bit of extra room for the rotation to happen
+    // Create a canvas
     var canvas = new Canvas(img.width, img.height);
     var ctx = canvas.getContext("2d");
 
