@@ -52,7 +52,7 @@ Most of these were mentioned during the class or in the discussion afterward.
 * Packages for unit testing:
   - [mocha](http://visionmedia.github.com/mocha/) ([npm](https://npmjs.org/package/mocha),
     [GitHub](https://github.com/visionmedia/mocha)): a very modern, well-maintained, and flexible test runner.
-  - [chai](https://github.com/visionmedia/mocha) ([npm](https://npmjs.org/package/chai),
+  - [chai](http://chaijs.com/) ([npm](https://npmjs.org/package/chai),
     [GitHub](https://github.com/chaijs/chai)): a great assertion library for fluent assertions. Extensible with lots of
     [plugins](http://chaijs.com/plugins).
   - [sinon](http://sinonjs.org/) ([npm](https://npmjs.org/package/sinon),
