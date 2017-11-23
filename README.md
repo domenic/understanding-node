@@ -50,8 +50,8 @@ Most of these were mentioned during the class or in the discussion afterward.
      abstraction in Node, which *in my opinion* is the best solution for handling asynchronous operations, and
      especially asynchronous errors.
 * Packages for unit testing:
-  - [mocha](http://visionmedia.github.com/mocha/) ([npm](https://npmjs.org/package/mocha),
-    [GitHub](https://github.com/visionmedia/mocha)): a very modern, well-maintained, and flexible test runner.
+  - [mocha](http://mochajs.org/) ([npm](https://npmjs.org/package/mocha),
+    [GitHub](https://github.com/mochajs/mocha)): a very modern, well-maintained, and flexible test runner.
   - [chai](http://chaijs.com/) ([npm](https://npmjs.org/package/chai),
     [GitHub](https://github.com/chaijs/chai)): a great assertion library for fluent assertions. Extensible with lots of
     [plugins](http://chaijs.com/plugins).
